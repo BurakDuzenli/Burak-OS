@@ -1,0 +1,66 @@
+{
+  "personalInfo": {
+    "name": "Lorem Ipsum",
+    "title": "Software Developer",
+    "location": "City, Country",
+    "email": "lorem@ipsum.dev",
+    "availability": "Open to opportunities"
+  },
+  "skills": {
+    "languages": ["TypeScript", "JavaScript", "Python", "Java"],
+    "frameworks": ["React", "Node.js", "Express", "Next.js"],
+    "tools": ["Git", "Docker", "AWS", "VS Code"]
+  },
+  "experience": [
+    {
+      "company": "Tech Company Alpha",
+      "position": "Senior Developer",
+      "period": "2021 - Present",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    {
+      "company": "Startup Beta",
+      "position": "Full Stack Developer",
+      "period": "2019 - 2021",
+      "description": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+    }
+  ],
+  "education": [
+    {
+      "degree": "Master's in Computer Science",
+      "school": "University of Lorem",
+      "year": "2019",
+      "description": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+    }
+  ],
+  "projects": [
+    {
+      "name": "Project Alpha",
+      "description": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "technologies": ["React", "TypeScript", "Node.js"],
+      "link": "https://github.com/username/project-alpha"
+    },
+    {
+      "name": "Project Beta",
+      "description": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.",
+      "technologies": ["Next.js", "MongoDB", "AWS"],
+      "link": "https://github.com/username/project-beta"
+    }
+  ],
+  "interests": [
+    "Open Source Development",
+    "Machine Learning",
+    "Cloud Architecture",
+    "UI/UX Design"
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "level": "Native"
+    },
+    {
+      "name": "Spanish",
+      "level": "Intermediate"
+    }
+  ]
+}
