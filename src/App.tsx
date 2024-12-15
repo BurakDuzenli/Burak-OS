@@ -90,7 +90,7 @@ function App() {
             <button
               key={icon.id}
               className="flex flex-col items-center gap-1 text-white hover:bg-white/10 p-2 rounded w-20"
-              onDoubleClick={() => handleIconDoubleClick(icon.id)}
+              onClick={() => handleIconDoubleClick(icon.id)}
             >
               <img src={icon.icon} alt="" className="w-8 h-8" />
               <span className="text-xs font-dogica-bold text-center">
