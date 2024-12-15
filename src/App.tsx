@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import "./App.css";
 import Navbar from "./components/Navbar";
 import Window from "./components/Window";
@@ -22,6 +22,12 @@ function App() {
     { id: "projects", isOpen: false, zIndex: 0 },
   ]);
   const [maxZIndex, setMaxZIndex] = useState(0);
+  const [showWelcomeMessage, setShowWelcomeMessage] = useState(true); // State for the welcome message
+
+  useEffect(() => {
+    const timer = setTimeout(() => setShowWelcomeMessage(false), 5000); // Hide message after 3 seconds
+    return () => clearTimeout(timer); // Cleanup the timer on unmount
+  }, []);
 
   const desktopIcons = [
     { id: "personalInfo" as const, icon: searchIcon, label: "About Me" },
@@ -79,7 +85,13 @@ function App() {
   return (
     <div className="min-h-screen flex flex-col">
       <Navbar onNavClick={handleNavClick} />
-
+      {showWelcomeMessage && (
+        <div className="inline">
+          <div className="flex items-center justify-center text-white text-lg font-bold animate-bounce">
+            Welcome to my portfolio! Click on icons to begin!
+          </div>
+        </div>
+      )}
       <div className="flex-1 relative">
         <div className="absolute top-4 left-4 flex flex-col gap-4 pl-4">
           {desktopIcons.map((icon) => (
