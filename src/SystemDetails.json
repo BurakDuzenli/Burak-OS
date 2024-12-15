@@ -5,10 +5,19 @@
     "occupation": "Computer Engineering Student"
   },
   "skills": {
-    "languages": ["TypeScript", "JavaScript", "Python", "Java"],
-    "frameworks": ["React", "Node.js", "Express", "Next.js"],
+    "languages": ["TypeScript", "JavaScript", "Python", "Java", "C/C++"],
+    "frameworks": [
+      "React",
+      "Node.js",
+      "Express",
+      "Next.js",
+      "flask",
+      "fastAPI",
+      "TailwindCSS"
+    ],
     "tools": ["Git", "Docker", "AWS", "VS Code"]
   },
+
   "experience": [
     {
       "company": "Tech Company Alpha",
@@ -33,16 +42,22 @@
   ],
   "projects": [
     {
-      "name": "Project Alpha",
-      "description": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-      "technologies": ["React", "TypeScript", "Node.js"],
-      "link": "https://github.com/username/project-alpha"
+      "name": "AI Powered Transcription App",
+      "description": "Developing an application that enables users to transcribe movies, series, or videos. Features include options to upload personal videos or fetch content directly from YouTube. Backend development is currently in progress.",
+      "technologies": ["React", "TypeScript", "Python", "Flask", "TailwindCSS"],
+      "link": "https://github.com/BurakDuzenli/translation-app"
     },
     {
-      "name": "Project Beta",
-      "description": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.",
-      "technologies": ["Next.js", "MongoDB", "AWS"],
-      "link": "https://github.com/username/project-beta"
+      "name": "Deep Learning Model For Fresh or Rotten Fruits Classification",
+      "description": "Developed and implemented a deep learning model for classifying fresh and rotten fruits, leveraging advanced data augmentation techniques and transfer learning to achieve >92% accuracy in multiclass image classification using CNNs.",
+      "technologies": ["PyTorch", "Python"],
+      "link": "https://github.com/BurakDuzenli/Fresh-or-rotten-fruits-classification"
+    },
+    {
+      "name": "Burak-OS",
+      "description": "Developing a portfolio website styled like a retro operating system. Features include a nostalgic user interface with vibrant windows, draggable elements, and clickable desktop icons. The design aims to combine playful aesthetics with seamless navigation, creating an engaging user experience.",
+      "technologies": ["TypeScript", "React"],
+      "link": "https://github.com/BurakDuzenli/Fresh-or-rotten-fruits-classification"
     }
   ],
   "interests": [

@@ -13,7 +13,7 @@ function Skills({ data }: SkillsProps) {
           <h3 className="text-lg font-semibold capitalize">{category}</h3>
           <div className="flex flex-wrap gap-2">
             {items.map((item: string) => (
-              <span key={item} className="bg-slate-600 px-2 py-1 rounded">
+              <span key={item} className="bg-white px-2 py-1 rounded">
                 {item}
               </span>
             ))}
