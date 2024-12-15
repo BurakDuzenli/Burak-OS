@@ -1,11 +1,10 @@
-import React from "react";
 import { Experience as ExperienceType } from "../../types";
 
 interface ExperienceProps {
   data: ExperienceType[];
 }
 
-function Experience({ data }: ExperienceProps) {
+function Experience({}: ExperienceProps) {
   return (
     <div className="flex flex-col items-center justify-center h-48 text-center space-y-4">
       <p className="font-dogica text-[#800000]">

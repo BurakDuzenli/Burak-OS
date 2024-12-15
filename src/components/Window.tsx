@@ -1,4 +1,3 @@
-import React from "react";
 import Draggable from "react-draggable";
 import systemDetails from "../SystemDetails.json";
 import AboutMe from "./sections/AboutMe";
