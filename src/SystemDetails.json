@@ -57,19 +57,7 @@
       "name": "Burak-OS",
       "description": "Developing a portfolio website styled like a retro operating system. Features include a nostalgic user interface with vibrant windows, draggable elements, and clickable desktop icons. The design aims to combine playful aesthetics with seamless navigation, creating an engaging user experience.",
       "technologies": ["TypeScript", "React"],
-      "link": "https://github.com/BurakDuzenli/Fresh-or-rotten-fruits-classification"
-    }
-  ],
-  "interests": [
-    "Open Source Development",
-    "Machine Learning",
-    "Cloud Architecture",
-    "UI/UX Design"
-  ],
-  "languages": [
-    {
-      "name": "English",
-      "level": "Native"
+      "link": "https://github.com/BurakDuzenli/Burak-OS"
     }
   ]
 }

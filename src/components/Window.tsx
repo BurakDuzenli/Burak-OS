@@ -47,29 +47,6 @@ function Window({ title, section, onClose, onFocus, zIndex }: WindowProps) {
           </div>
         );
 
-      case "interests":
-        return (
-          <div className="flex flex-wrap gap-2">
-            {(data as string[]).map((interest) => (
-              <span key={interest} className="bg-slate-600 px-2 py-1 rounded">
-                {interest}
-              </span>
-            ))}
-          </div>
-        );
-
-      case "languages":
-        return (
-          <div className="space-y-2">
-            {(data as typeof systemDetails.languages).map((lang, index) => (
-              <div key={index} className="flex justify-between">
-                <span>{lang.name}</span>
-                <span className="text-slate-400">{lang.level}</span>
-              </div>
-            ))}
-          </div>
-        );
-
       default:
         return null;
     }

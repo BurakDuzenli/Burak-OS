@@ -20,8 +20,6 @@ function App() {
     { id: "experience", isOpen: false, zIndex: 0 },
     { id: "education", isOpen: false, zIndex: 0 },
     { id: "projects", isOpen: false, zIndex: 0 },
-    { id: "interests", isOpen: false, zIndex: 0 },
-    { id: "languages", isOpen: false, zIndex: 0 },
   ]);
   const [maxZIndex, setMaxZIndex] = useState(0);
 
@@ -60,13 +58,11 @@ function App() {
 
   const getWindowTitle = (id: WindowState["id"]) => {
     const titles: Record<WindowState["id"], string> = {
-      personalInfo: "About Me",
+      personalInfo: "System Details",
       skills: "Skills",
       experience: "Experience",
       education: "Education",
       projects: "Projects",
-      interests: "Interests",
-      languages: "Languages",
     };
     return titles[id];
   };
@@ -85,7 +81,7 @@ function App() {
       <Navbar onNavClick={handleNavClick} />
 
       <div className="flex-1 relative">
-        <div className="absolute top-4 left-4 flex flex-col gap-4">
+        <div className="absolute top-4 left-4 flex flex-col gap-4 pl-4">
           {desktopIcons.map((icon) => (
             <button
               key={icon.id}
